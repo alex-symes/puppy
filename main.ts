@@ -164,7 +164,6 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
         # # # # . . # # # .
         `).scrollImage(1, 200)
 })
-let food = 0
 radio.setGroup(1)
 basic.showLeds(`
     . # . . .
@@ -174,5 +173,5 @@ basic.showLeds(`
     . # . # .
     `)
 basic.forever(function () {
-    food = 0
+	
 })
